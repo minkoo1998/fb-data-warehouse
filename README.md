@@ -26,3 +26,8 @@ End-to-end data engineering project built on real-world F&B consulting experienc
 4. Run `dbt seed && dbt run && dbt test` inside `dbt_fb/`
 5. Run `streamlit run dashboard/streamlit_app.py`
 6. Start Airflow via `docker compose up -d` inside `airflow/`
+
+7. ## Streamlit Dashboard ScreenShots
+8. <img width="1792" height="902" alt="Screenshot 2026-05-18 at 16 51 43" src="https://github.com/user-attachments/assets/f88fdcc8-47a5-4439-9715-850252edacec" />
+<img width="1779" height="927" alt="Screenshot 2026-05-18 at 16 52 14" src="https://github.com/user-attachments/assets/7db11d28-dd24-4f74-bd06-a76e597e8615" />
+
