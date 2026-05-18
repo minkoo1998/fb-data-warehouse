@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: stg_pos_sales
+    columns:
+      - name: order_id
+        tests: [unique, not_null]
+      - name: outlet_id
+        tests: [not_null]
+      - name: item_sku
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['BURGER-01', 'PIZZA-02', 'WRAP-03', 'DRINK-04', 'SIDE-05']
+      - name: quantity
+        tests: [not_null]
+      - name: unit_price
+        tests: [not_null]
+
+  - name: stg_supplier_invoices
+    columns:
+      - name: invoice_id
+        tests: [unique, not_null]
+      - name: payment_status
+        tests:
+          - accepted_values:
+              values: ['paid', 'pending', 'overdue']
+
+  - name: stg_inventory
+    columns:
+      - name: record_id
+        tests: [unique, not_null]
+      - name: needs_reorder
+        tests:
+          - accepted_values:
+              values: ['yes', 'no']

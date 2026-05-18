@@ -1,0 +1,16 @@
+record_id,outlet_id,item_sku,stock_on_hand,reorder_threshold,needs_reorder,unit_cost_gbp,last_updated,supplier_name
+ff7e8c04-1e0e-4cbc-bbb4-0dd8994fabbd,Leeds-Central,BURGER-01,123,38,no,4.95,2026-05-11 11:18:30,FreshFarm Ltd
+89ab3456-37eb-4e0b-ba92-a0c53ffe2927,Leeds-Central,PIZZA-02,63,18,no,5.85,2026-05-15 06:55:29,Metro Foods UK
+e108c472-eabe-49a8-8d47-8c81544af2cb,Leeds-Central,WRAP-03,26,27,yes,3.6,2026-05-15 18:17:21,Northern Wholesale
+c4d28a69-1dc8-41ec-84c9-77e013ac52e6,Leeds-Central,DRINK-04,142,17,no,1.57,2026-05-16 08:13:02,Metro Foods UK
+c8a42cf5-6078-4137-9aae-0cd7a1b9a1dc,Leeds-Central,SIDE-05,18,34,yes,1.8,2026-05-16 04:51:49,GreenLeaf Supplies
+cea7929b-2c7a-49ff-9c43-3d6a616e61b4,Bradford,BURGER-01,131,32,no,4.95,2026-05-12 05:16:38,FreshFarm Ltd
+39736fa5-c614-4d72-91e1-a14502af747d,Bradford,PIZZA-02,29,33,yes,5.85,2026-05-14 22:30:37,Metro Foods UK
+a8ef03bc-da9e-4ed3-a9a9-ae219c25ba31,Bradford,WRAP-03,92,35,no,3.6,2026-05-11 17:12:17,Northern Wholesale
+279d8351-3dfa-48e3-bf9c-2a17bcf7bdac,Bradford,DRINK-04,42,19,no,1.57,2026-05-16 09:50:48,Metro Foods UK
+8cc500de-f6ad-440c-803f-759986a04d0a,Bradford,SIDE-05,161,29,no,1.8,2026-05-15 12:42:51,GreenLeaf Supplies
+c1a7eef9-8757-4c2d-a0ea-f88da4ab2f4e,Harrogate,BURGER-01,35,26,no,4.95,2026-05-10 23:19:20,FreshFarm Ltd
+6b9a9d17-c56a-4a4d-872e-507adcc0592e,Harrogate,PIZZA-02,98,15,no,5.85,2026-05-09 22:57:56,Metro Foods UK
+2235b0bb-aa9d-47f4-8233-cbdb7a03fa57,Harrogate,WRAP-03,27,32,yes,3.6,2026-05-15 21:44:37,Northern Wholesale
+93747f2f-db39-4171-91c5-43673cc04fb1,Harrogate,DRINK-04,175,15,no,1.57,2026-05-10 16:11:08,Metro Foods UK
+bdddc4a1-c35d-4a78-81a8-14825c07fb29,Harrogate,SIDE-05,36,31,no,1.8,2026-05-11 05:28:32,GreenLeaf Supplies
